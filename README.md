@@ -3,14 +3,14 @@
 To Scrap data from a bunch of websites and to do text analysis on the scrapped data.
 
 ## Tools used:
-Programming Language - Python
-Text editor - Visual Studio Code
+- Programming Language - Python
+- Text editor - Visual Studio Code
 
 ## Libraries Used:
-Pandas
-Selenium
-Beautifulsoup
-os
+- Pandas
+- Selenium (from selenium I have imported the webdriver)
+- Beautifulsoup
+- os
 
 ## Procedures:
 1. As a preliminary step I have installed all necessary libraries and imported them.
