@@ -1,22 +1,22 @@
+# importing the necessary libraries
 import pandas as pd
 from selenium import webdriver
 from bs4 import BeautifulSoup
 
-
+# reading the csv file
 data = pd.read_csv("data_file.csv")
 
-#print(data['URL'])
+#selecting chrome webdriver and storing it in a variable called driver
 
 driver = webdriver.Chrome()
 
-#print(driver.get(data["URL"][0]))
+# Creating a for loop to Iterate over the dataframe and scrap the data
 
 for i in range(len(data['URL'])):
     #print(i)
     url = data['URL'][i]
     url_id = data['URL_ID'][i]
     driver.get(url)
-    #print(page.title)
     html = driver.page_source
     content = BeautifulSoup(html, 'lxml')
     try:
