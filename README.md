@@ -1,6 +1,6 @@
 # Web-Scrapping
 ## Agenda:
-To Scrap data from a bunch of websites and to do text analysis on the scrapped data.
+To Scrap data from a set of websites and to do text analysis on the scrapped data.
 
 ## Tools used:
 - Programming Language - Python
